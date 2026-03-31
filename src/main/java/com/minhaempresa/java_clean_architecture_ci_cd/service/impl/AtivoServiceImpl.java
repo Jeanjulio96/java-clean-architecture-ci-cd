@@ -18,7 +18,7 @@ public class AtivoServiceImpl implements AtivoService {
     private AtivoDAO dao;
 
     @Override
-    @Transactional // ✅ AQUI
+    @Transactional //
     public AtivoDTO criar(AtivoDTO dto) {
 
         if (dto.getPreco() <= 0) {
